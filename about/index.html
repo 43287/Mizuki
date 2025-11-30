@@ -1115,22 +1115,22 @@ const yearSuffix = " ";
 })();</script>  </div> <!-- 粘性组件区域 -->  </div> <!-- 响应式样式和JavaScript -->  <script type="module" src="/_astro/RightSideBar.astro_astro_type_script_index_0_lang.kMUYjzWr.js"></script></div> <main id="swup-container" class="transition-swup-fade overflow-hidden w-full col-span-1 row-start-1 row-end-2 col-span-1 row-start-1 row-end-2 lg:col-start-2 lg:col-end-3 lg:col-start-2 lg:col-end-3 transition-main" data-astro-cid-haiuh7kc> <div id="content-wrapper" class="onload-animation transition-leaving" data-astro-cid-haiuh7kc> <!-- the overflow-hidden here prevent long text break the layout--> <!-- make id different from windows.swup global property -->   <script type="module" src="/_astro/about.astro_astro_type_script_index_0_lang.dvY850Ym.js"></script> <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32"> <div class="card-base z-10 px-9 py-6 relative w-full"> <!-- 页面标题 --> <div class="flex flex-col items-start justify-center mb-8"> <h1 class="text-4xl font-bold text-black/90 dark:text-white/90 mb-2 relative
                           before:w-1 before:h-8 before:rounded-md before:bg-[var(--primary)]
                           before:absolute before:top-1/2 before:-translate-y-1/2 before:-left-4"> About </h1> </div> <!-- 从MD文件读取的内容 --> <div data-pagefind-body class="prose dark:prose-invert prose-base !max-w-none custom-md mt-2"> <!--<div class="prose dark:prose-invert max-w-none custom-md">--> <!--<div class="max-w-none custom-md">-->  <p>This website is built with the <strong>Astro</strong> framework using the <a href="https://github.com/matsuzaka-yuki/mizuki">Mizuki</a> theme.</p>
-<a id="GCnk12sm-card" class="card-github fetch-waiting no-styling" href="https://github.com/matsuzaka-yuki/Mizuki" target="_blank" repo="matsuzaka-yuki/Mizuki"><div class="gc-titlebar"><div class="gc-titlebar-left"><div class="gc-owner"><div id="GCnk12sm-avatar" class="gc-avatar"></div><div class="gc-user">matsuzaka-yuki</div></div><div class="gc-divider">/</div><div class="gc-repo">Mizuki</div></div><div class="github-logo"></div></div><div id="GCnk12sm-description" class="gc-description">Waiting for api.github.com...</div><div class="gc-infobar"><div id="GCnk12sm-stars" class="gc-stars">00K</div><div id="GCnk12sm-forks" class="gc-forks">0K</div><div id="GCnk12sm-license" class="gc-license">0K</div><span id="GCnk12sm-language" class="gc-language">Waiting...</span></div><script id="GCnk12sm-script" type="text/javascript" defer>
+<a id="GCzmjcsb-card" class="card-github fetch-waiting no-styling" href="https://github.com/matsuzaka-yuki/Mizuki" target="_blank" repo="matsuzaka-yuki/Mizuki"><div class="gc-titlebar"><div class="gc-titlebar-left"><div class="gc-owner"><div id="GCzmjcsb-avatar" class="gc-avatar"></div><div class="gc-user">matsuzaka-yuki</div></div><div class="gc-divider">/</div><div class="gc-repo">Mizuki</div></div><div class="github-logo"></div></div><div id="GCzmjcsb-description" class="gc-description">Waiting for api.github.com...</div><div class="gc-infobar"><div id="GCzmjcsb-stars" class="gc-stars">00K</div><div id="GCzmjcsb-forks" class="gc-forks">0K</div><div id="GCzmjcsb-license" class="gc-license">0K</div><span id="GCzmjcsb-language" class="gc-language">Waiting...</span></div><script id="GCzmjcsb-script" type="text/javascript" defer>
       fetch('https://api.github.com/repos/matsuzaka-yuki/Mizuki', { referrerPolicy: "no-referrer" }).then(response => response.json()).then(data => {
-        document.getElementById('GCnk12sm-description').innerText = data.description?.replace(/:[a-zA-Z0-9_]+:/g, '') || "Description not set";
-        document.getElementById('GCnk12sm-language').innerText = data.language;
-        document.getElementById('GCnk12sm-forks').innerText = Intl.NumberFormat('en-us', { notation: "compact", maximumFractionDigits: 1 }).format(data.forks).replaceAll(" ", '');
-        document.getElementById('GCnk12sm-stars').innerText = Intl.NumberFormat('en-us', { notation: "compact", maximumFractionDigits: 1 }).format(data.stargazers_count).replaceAll(" ", '');
-        const avatarEl = document.getElementById('GCnk12sm-avatar');
+        document.getElementById('GCzmjcsb-description').innerText = data.description?.replace(/:[a-zA-Z0-9_]+:/g, '') || "Description not set";
+        document.getElementById('GCzmjcsb-language').innerText = data.language;
+        document.getElementById('GCzmjcsb-forks').innerText = Intl.NumberFormat('en-us', { notation: "compact", maximumFractionDigits: 1 }).format(data.forks).replaceAll(" ", '');
+        document.getElementById('GCzmjcsb-stars').innerText = Intl.NumberFormat('en-us', { notation: "compact", maximumFractionDigits: 1 }).format(data.stargazers_count).replaceAll(" ", '');
+        const avatarEl = document.getElementById('GCzmjcsb-avatar');
         avatarEl.style.backgroundImage = 'url(' + data.owner.avatar_url + ')';
         avatarEl.style.backgroundColor = 'transparent';
-        document.getElementById('GCnk12sm-license').innerText = data.license?.spdx_id || "no-license";
-        document.getElementById('GCnk12sm-card').classList.remove("fetch-waiting");
-        console.log("[GITHUB-CARD] Loaded card for matsuzaka-yuki/Mizuki | GCnk12sm.")
+        document.getElementById('GCzmjcsb-license').innerText = data.license?.spdx_id || "no-license";
+        document.getElementById('GCzmjcsb-card').classList.remove("fetch-waiting");
+        console.log("[GITHUB-CARD] Loaded card for matsuzaka-yuki/Mizuki | GCzmjcsb.")
       }).catch(err => {
-        const c = document.getElementById('GCnk12sm-card');
+        const c = document.getElementById('GCzmjcsb-card');
         c?.classList.add("fetch-error");
-        console.warn("[GITHUB-CARD] (Error) Loading card for matsuzaka-yuki/Mizuki | GCnk12sm.")
+        console.warn("[GITHUB-CARD] (Error) Loading card for matsuzaka-yuki/Mizuki | GCzmjcsb.")
       })
     </script></a>
 <section><h2 id="-theme-features">🌟 Theme Features<a class="anchor" href="#-theme-features"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h2><section><h3 id="-design--user-experience">🎨 Design &#x26; User Experience<a class="anchor" href="#-design--user-experience"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h3><ul>
