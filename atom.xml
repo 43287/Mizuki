@@ -5,7 +5,7 @@
   <link href="https://pri87.vip/" rel="alternate" type="text/html"/>
   <link href="https://pri87.vip/atom.xml" rel="self" type="application/atom+xml"/>
   <id>https://pri87.vip/</id>
-  <updated>2025-11-30T17:13:25.375Z</updated>
+  <updated>2025-11-30T17:18:18.417Z</updated>
   <language>zh_CN</language>
   <entry>
     <title>Simple Guides for Mizuki</title>
@@ -96,12 +96,13 @@ draft: false
   </entry>
   <entry>
     <title>just a test</title>
-    <link href="https://pri87.vip/posts/%E6%B5%8B%E8%AF%95/" rel="alternate" type="text/html"/>
-    <id>https://pri87.vip/posts/%E6%B5%8B%E8%AF%95/</id>
+    <link href="https://pri87.vip/posts/test/" rel="alternate" type="text/html"/>
+    <id>https://pri87.vip/posts/test/</id>
     <published>2022-07-01T00:00:00.000Z</published>
     <updated>2022-07-01T00:00:00.000Z</updated>
     <summary></summary>
-    <content type="html"><![CDATA[<p>tes!!!!!!</p>
+    <content type="html"><![CDATA[<p>这是一个测试</p>
+<p>tes!!!!!!</p>
 <p>1</p>
 <p>112</p>
 ]]></content>
