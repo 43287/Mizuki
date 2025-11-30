@@ -29,7 +29,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 export default defineConfig({
 	site: siteConfig.siteURL,
 
-	base: "/repo/",
+	base: "/",
 	trailingSlash: "always",
 	integrations: [
 		tailwind({
