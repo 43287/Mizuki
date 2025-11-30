@@ -30,7 +30,6 @@ pnpm-debug.log*
 .vercel
 
 package-lock.json
-pnpm-workspace.yaml
 bun.lockb
 yarn.lock
 
