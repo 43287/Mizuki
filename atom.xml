@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>pRism</title>
+  <subtitle>self site</subtitle>
+  <link href="https://pri87.vip/" rel="alternate" type="text/html"/>
+  <link href="https://pri87.vip/atom.xml" rel="self" type="application/atom+xml"/>
+  <id>https://pri87.vip/</id>
+  <updated>2025-11-30T14:38:14.280Z</updated>
+  <language>zh_CN</language>
+  <entry>
+    <title>Markdown Extended Features</title>
+    <link href="https://pri87.vip/posts/markdown-extended/" rel="alternate" type="text/html"/>
+    <id>https://pri87.vip/posts/markdown-extended/</id>
+    <published>2024-05-01T00:00:00.000Z</published>
+    <updated>2024-11-29T00:00:00.000Z</updated>
+    <summary>Read more about Markdown features in Mizuki</summary>
+    <content type="html"><![CDATA[<h2>GitHub Repository Cards</h2>
+<p>You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API.</p>
+<p>::github{repo="matsuzaka-yuki/Mizuki"}</p>
+<p>Create a GitHub repository card with the code <code>::github{repo="matsuzaka-yuki/Mizuki"}</code>.</p>
+<pre><code>::github{repo="matsuzaka-yuki/Mizuki"}
+</code></pre>
+<h2>Admonitions</h2>
+<p>Following types of admonitions are supported: <code>note</code> <code>tip</code> <code>important</code> <code>warning</code> <code>caution</code></p>
+<p>:::note
+Highlights information that users should take into account, even when skimming.
+:::</p>
+<p>:::tip
+Optional information to help a user be more successful.
+:::</p>
+<p>:::important
+Crucial information necessary for users to succeed.
+:::</p>
+<p>:::warning
+Critical content demanding immediate user attention due to potential risks.
+:::</p>
+<p>:::caution
+Negative potential consequences of an action.
+:::</p>
+<h3>Basic Syntax</h3>
+<pre><code>:::note
+Highlights information that users should take into account, even when skimming.
+:::
+
+:::tip
+Optional information to help a user be more successful.
+:::
+</code></pre>
+<h3>Custom Titles</h3>
+<p>The title of the admonition can be customized.</p>
+<p>:::note[MY CUSTOM TITLE]
+This is a note with a custom title.
+:::</p>
+<pre><code>:::note[MY CUSTOM TITLE]
+This is a note with a custom title.
+:::
+</code></pre>
+<h3>GitHub Syntax</h3>
+<blockquote>
+<p>[!TIP]
+<a href="https://github.com/orgs/community/discussions/16925">The GitHub syntax</a> is also supported.</p>
+</blockquote>
+<pre><code>&gt; [!NOTE]
+&gt; The GitHub syntax is also supported.
+
+&gt; [!TIP]
+&gt; The GitHub syntax is also supported.
+</code></pre>
+<h3>Spoiler</h3>
+<p>You can add spoilers to your text. The text also supports <strong>Markdown</strong> syntax.</p>
+<p>The content :spoiler[is hidden <strong>ayyy</strong>]!</p>
+<pre><code>The content :spoiler[is hidden **ayyy**]!
+</code></pre>
+]]></content>
+    <author>
+      <name>pRism</name>
+    </author>
+    <category term="Examples"></category>
+  </entry>
+</feed>
