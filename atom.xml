@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Mizuki</title>
-  <subtitle>One demo website</subtitle>
-  <link href="https://mizuki.mysqil.com/" rel="alternate" type="text/html"/>
-  <link href="https://mizuki.mysqil.com/atom.xml" rel="self" type="application/atom+xml"/>
-  <id>https://mizuki.mysqil.com/</id>
-  <updated>2025-11-30T15:49:10.927Z</updated>
-  <language>en</language>
+  <title>pRism</title>
+  <subtitle>self site</subtitle>
+  <link href="https://pri87.vip/" rel="alternate" type="text/html"/>
+  <link href="https://pri87.vip/atom.xml" rel="self" type="application/atom+xml"/>
+  <id>https://pri87.vip/</id>
+  <updated>2025-11-30T16:13:08.205Z</updated>
+  <language>zh_CN</language>
   <entry>
     <title>Markdown Extended Features</title>
-    <link href="https://mizuki.mysqil.com/posts/markdown-extended/" rel="alternate" type="text/html"/>
-    <id>https://mizuki.mysqil.com/posts/markdown-extended/</id>
+    <link href="https://pri87.vip/posts/markdown-extended/" rel="alternate" type="text/html"/>
+    <id>https://pri87.vip/posts/markdown-extended/</id>
     <published>2024-05-01T00:00:00.000Z</published>
     <updated>2024-11-29T00:00:00.000Z</updated>
     <summary>Read more about Markdown features in Mizuki</summary>
@@ -73,14 +73,14 @@ This is a note with a custom title.
 </code></pre>
 ]]></content>
     <author>
-      <name>Matsuzaka Yuki</name>
+      <name>pRism</name>
     </author>
     <category term="Examples"></category>
   </entry>
   <entry>
     <title>Simple Guides for Mizuki</title>
-    <link href="https://mizuki.mysqil.com/posts/guide/" rel="alternate" type="text/html"/>
-    <id>https://mizuki.mysqil.com/posts/guide/</id>
+    <link href="https://pri87.vip/posts/guide/" rel="alternate" type="text/html"/>
+    <id>https://pri87.vip/posts/guide/</id>
     <published>2024-04-01T00:00:00.000Z</published>
     <updated>2024-04-01T00:00:00.000Z</updated>
     <summary>How to use this blog template.</summary>
@@ -160,7 +160,7 @@ draft: false
 </code></pre>
 ]]></content>
     <author>
-      <name>Matsuzaka Yuki</name>
+      <name>pRism</name>
     </author>
     <category term="Guides"></category>
   </entry>
