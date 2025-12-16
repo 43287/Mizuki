@@ -337,13 +337,12 @@ flowchart LR
   local[Local code Repo]
   remote[Local code Repo]
   vercel[Vercel Repo]
+
   content -- "git push" --> remotec
   local -- "git push" --> remote
   remote -- "auto deploy" --> vercel
-  remotec --> "deploy hook" --> vercel
+  remotec -- "deploy hook" --> vercel
 ```
-
-
 
 
 
